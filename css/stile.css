@@ -41,6 +41,7 @@ img{
     background-color: black;
     float: left;
     margin: 0.5rem;
+    border-bottom: 2px solid black;
 }
 .margin-left{
     margin-left: 135px;
