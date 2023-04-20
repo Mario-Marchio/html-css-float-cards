@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+
 body{
     font-family: kanit, "comic sans";
 }
@@ -26,6 +27,9 @@ img{
     width: 120px;
     float: left;
 }
+
+
+
 .text-alligner{
     text-align: center;
 }
