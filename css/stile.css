@@ -37,9 +37,10 @@ img{
     color: #fff;
 }
 .column{
-    width: calc(100%/ 3);
+    width: calc(100%/ 3 - 1rem);
     background-color: black;
     float: left;
+    margin: 0.5rem;
 }
 .margin-left{
     margin-left: 135px;
