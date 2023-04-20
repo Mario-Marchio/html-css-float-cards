@@ -11,9 +11,19 @@ h1{
     color: rgb(235, 64, 135);
     font-size: 3rem ;
 }
+h2{
+    font-size: 1.6rem;
+}
 p{
     font-size: 1.4rem;
     margin-bottom: 100px;
+}
+a{
+    text-decoration: none;
+    color: rgb(71, 170, 236);
+}
+img{
+    width: 120px;
 }
 .text-alligner{
     text-align: center;
@@ -21,4 +31,23 @@ p{
 .container{
     max-width: 1200px;
     margin: 0 auto;
+}
+.text-white{
+    color: #fff;
+}
+.column{
+    width: calc(100%/ 3 - 1rem);
+    background-color: black;
+}
+.margin-left{
+    margin-left: 135px;
+    padding-top: 12px;
+}
+.float-left{
+    float: left;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
 }
