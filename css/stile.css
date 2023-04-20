@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: kanit, "comic sans";
+}
+h1{
+    color: rgb(235, 64, 135);
+    font-size: 3rem ;
+}
+p{
+    font-size: 1.4rem;
+    margin-bottom: 100px;
+}
+.text-alligner{
+    text-align: center;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
