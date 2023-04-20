@@ -24,6 +24,7 @@ a{
 }
 img{
     width: 120px;
+    float: left;
 }
 .text-alligner{
     text-align: center;
@@ -36,15 +37,13 @@ img{
     color: #fff;
 }
 .column{
-    width: calc(100%/ 3 - 1rem);
+    width: calc(100%/ 3);
     background-color: black;
+    float: left;
 }
 .margin-left{
     margin-left: 135px;
     padding-top: 12px;
-}
-.float-left{
-    float: left;
 }
 .clearfix::after{
     content: '';
